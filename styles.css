@@ -16,10 +16,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    padding: 1.8rem;
-    width: 35rem;
+    padding: 2rem;
+    width: 36rem;
 }
-#recipe-container img {
+section img {
+    display: block;
+    width: 100%;
     border-radius: 0.5rem;
 }
 
@@ -42,16 +44,22 @@ h2 {
 
 #preparation-time {
     background: hsl(330, 100%, 98%);
-    border-radius: 0.5rem;
+    border-radius: 0.875rem;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    margin: 1rem 0;
-    padding: 1.5rem;
+    gap: 0.3rem;
+    margin: 1.5rem 0 0 0;
+    padding: 1.2rem 2.5rem;
 }
 #preparation-time p {
     color: hsl(332, 51%, 32%);
     font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-indent: -1rem;
+}
+
+hr {
+   border: 0.05rem solid hsl(30, 18%, 87%);
 }
 
 .bold-text {
@@ -61,8 +69,8 @@ h2 {
 /* List styles */
 ol, ul {
     list-style-position: outside;
-    margin-bottom: 1rem;
-    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1.2rem;
 }
 
 /* General li style */
@@ -101,9 +109,8 @@ li {
     padding: 0.875rem 1.5rem;
 }
 #nutrition tr:not(:last-child) td {
-    border-bottom: 0.0875rem solid hsl(30, 18%, 87%);
+    border-bottom: 0.005rem solid hsl(30, 18%, 87%);
 }
-
 .column-1 {
     color:  hsl(30, 10%, 34%);
     font-weight: 300;
