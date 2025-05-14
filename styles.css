@@ -60,8 +60,9 @@ h2 {
 
 /* List styles */
 ol, ul {
-    padding-left: 0.5rem;
+    list-style-position: outside;
     margin-bottom: 1rem;
+    padding-left: 1rem;
 }
 
 /* General li style */
@@ -70,7 +71,7 @@ li {
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.5rem;
-    list-style-position: inside;
+    padding-left: 1rem;
 }
 
 /* Section-specific marker stylo */
