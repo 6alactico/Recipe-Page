@@ -17,14 +17,20 @@ body {
     flex-direction: column;
     margin: auto;
     padding: 2rem;
-    width: 36rem;
+    width: 37rem;
 }
+
 section img {
     display: block;
     width: 100%;
     border-radius: 0.5rem;
 }
 
+hr {
+   border: 0.05rem solid hsl(30, 18%, 87%);
+}
+
+/* Headings & p */
 h1, h2 {
     font-family: 'Young Serif', serif;
     margin: 1rem 0;
@@ -37,52 +43,47 @@ h2 {
     color: hsl(14, 45%, 36%);
     font-weight: 400;
 }
+
 .description-text {
     color: hsl(30, 10%, 34%);
     font-size: 0.8rem;
 }
 
+/* Sections */
 #preparation-time {
     background: hsl(330, 100%, 98%);
     border-radius: 0.875rem;
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
     margin: 1.5rem 0 0 0;
-    padding: 1.2rem 2.5rem;
+    padding: 1.2rem 1.2rem;
 }
-#preparation-time p {
+#preparation-title {
     color: hsl(332, 51%, 32%);
     font-weight: 600;
     margin-bottom: 0.5rem;
-    text-indent: -1rem;
+    padding-left: 0.1rem;
 }
 
-hr {
-   border: 0.05rem solid hsl(30, 18%, 87%);
-}
-
-.bold-text {
-    font-weight: 700;
+#instructions, #ingredients {
+    padding-bottom: 1.5rem;
 }
 
 /* List styles */
 ol, ul {
     list-style-position: outside;
-    margin-bottom: 1.5rem;
     padding-left: 1.2rem;
 }
 
-/* General li style */
 li {
     color: hsl(30, 10%, 34%);
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.5rem;
-    padding-left: 1rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
-/* Section-specific marker stylo */
+/* Section-specific marker styles */
 #preparation-time li::marker {
     font-size: 0.7rem;
     color: hsl(332, 51%, 32%);
@@ -99,22 +100,27 @@ li {
     font-weight: 600;
 }
 
+/* Nutrition Section */
 #nutrition {
     border-collapse: collapse;
     font-size: 0.875rem;
     margin-top: 1rem;
     width: 100%;
 }
+
 #nutrition td {
     padding: 0.875rem 1.5rem;
 }
+
 #nutrition tr:not(:last-child) td {
     border-bottom: 0.005rem solid hsl(30, 18%, 87%);
 }
+
 .column-1 {
     color:  hsl(30, 10%, 34%);
     font-weight: 300;
 }
+
 .column-2 {
     color:  hsl(14, 45%, 36%);
     font-weight: 700;
