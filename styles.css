@@ -20,10 +20,6 @@ body {
     width: 100%;
     max-width: 37rem;
 }
-section {
-    display: flex;
-    flex-direction: column;
-}
 
 img {
     border-radius: 0.5rem;
