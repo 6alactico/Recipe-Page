@@ -7,7 +7,7 @@
 body {
     background-color: hsl(30, 54%, 90%);
     font-family: 'Outfit', sans-serif;
-    height: 100vh;
+    height: 100%;
 }
 
 #recipe-container {
@@ -15,15 +15,21 @@ body {
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 5rem auto;
     padding: 2rem;
-    width: 37rem;
+    width: 100%;
+    max-width: 37rem;
+}
+section {
+    display: flex;
+    flex-direction: column;
 }
 
-section img {
+img {
     border-radius: 0.5rem;
     display: block;
     width: 100%;
+    height: auto;
 }
 
 hr {
@@ -53,8 +59,6 @@ h2 {
 #preparation-time {
     background: hsl(330, 100%, 98%);
     border-radius: 0.875rem;
-    display: flex;
-    flex-direction: column;
     margin: 1.5rem 0 0 0;
     padding: 1.2rem 1.2rem;
 }
