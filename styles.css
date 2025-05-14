@@ -21,9 +21,9 @@ body {
 }
 
 section img {
+    border-radius: 0.5rem;
     display: block;
     width: 100%;
-    border-radius: 0.5rem;
 }
 
 hr {
@@ -117,11 +117,11 @@ li {
 }
 
 .column-1 {
-    color:  hsl(30, 10%, 34%);
+    color: hsl(30, 10%, 34%);
     font-weight: 300;
 }
 
 .column-2 {
-    color:  hsl(14, 45%, 36%);
+    color: hsl(14, 45%, 36%);
     font-weight: 700;
 }
