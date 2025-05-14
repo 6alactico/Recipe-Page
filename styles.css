@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'YoungSerif', sans-serif;
-    src: url('/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,5 +5,84 @@
 }
 
 body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
     height: 100vh;
+}
+
+#recipe-container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1.8rem;
+    width: 35rem;
+}
+#recipe-container img {
+    border-radius: 0.5rem;
+}
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+    margin: 1rem 0;
+}
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+}
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+.description-text {
+    color: hsl(30, 10%, 34%);
+    font-size: 0.8rem;
+}
+
+#preparation-time {
+    background: hsl(330, 100%, 98%);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+    padding: 1.5rem;
+}
+#preparation-time p {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+ol, ul {
+    display: block;
+    margin-block-end: 1rem;
+    padding-inline-start: 0.5rem;
+}
+li {
+    color: hsl(30, 10%, 34%);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    list-style-position: inside;
+}
+li::marker {
+    font-size: 0.7rem;
+}
+#preparation-time li::marker {
+    font-size: 0.7rem;
+    color: hsl(332, 51%, 32%);
+}
+
+#ingredients li::marker {
+    font-size: 0.7rem;
+    color: hsl(14, 45%, 36%);
+}
+
+#instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
 }
